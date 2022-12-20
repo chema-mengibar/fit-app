@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    font-weight: 400;
+    font-display: swap;
+    src: url('./assets/fonts/RobotoSlab-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Bold';
+    font-weight: 600;
+    font-display: swap;
+    src: url('./assets/fonts/RobotoSlab-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-display: swap;
+    src: url('./assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: var(--font-copy);
+    font-style: normal;
+    font-weight: var(--regular);
+    font-size: 14px;
+}
+
+h1 {
+    font-family: var(--font-hlb);
+    font-size: 24px;
+    &+h2 {
+        margin-top: var(--vd2);
+    }
+}
+
+h2 {
+    font-family: var(--font-hlb);
+    font-size: 18px;
+    line-height: 18px;
+}
+
+h3,
+h4,
+h5 {
+    font-family: var(--font-hlb);
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.text_accent {
+    font-family: var(--font-hlb);
+}
+
+p {
+    line-height: 1.5em;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: var(--accent-rgb);
+    font-family: var(--font-hlb);
+}
+
+.colorAccent {
+    color: var(--accent-rgb);
+}
+
+b {
+    font-weight: bold;
+}

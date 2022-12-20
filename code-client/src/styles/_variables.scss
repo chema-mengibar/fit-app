@@ -1,0 +1,40 @@
+:root {
+    /*colors */
+    /* font */
+    --regular: 400;
+    --bold: 600;
+    --font-hl: 'RobotoSlab', serif;
+    --font-hlb: 'RobotoSlab-Bold', serif;
+    --font-copy: 'OpenSans', serif;
+    /* color */
+    // --app-color: linear-gradient(180deg, #6C7BA7 0%, #242C43 37.4%, #141D38 53.66%);
+    --app-color: #e7e7e7;
+    --cell-color: #fefefe;
+    --cell-text-color: #black;
+    --button-color: 76, 66, 135;
+    --button-color-rgb: rgb(76, 66, 135);
+    --button-text-color: 255, 255, 255;
+    --button-text-color-rgb: rgb(255, 255, 255);
+    --separator: #d1d1d1;
+    /* vertical baseline */
+    --vm10: 240px;
+    --vm8: 192px;
+    --vm6: 144px;
+    --vm4: 96px;
+    --vm2: 48px;
+    --vb: 24px;
+    --vd2: 12px;
+    --vd4: 6px;
+    --vd6: 4px;
+    --vd8: 3px;
+    --vd10: 2.4px;
+}
+
+
+/*
+
+[data-theme=kids] {
+  
+
+}
+*/
