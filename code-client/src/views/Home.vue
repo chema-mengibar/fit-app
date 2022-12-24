@@ -33,9 +33,6 @@ export default {
   margin-bottom: 20px;
 }
 
-.exercises{
-
-}
 
 .exercise-item{
   margin-bottom: 20px;
@@ -93,7 +90,12 @@ export default {
           <router-link
             
              alt="Go to menu"
-            :to="{ name: 'Panel', query: { id: execs.id } }"
+            :to="{ 
+              name: 'Panel', 
+              query: { 
+                id: execs.id,
+                block: blocks.id,
+             } }"
             class="exercise-cta"> Go >
           </router-link>
         </div>
